@@ -131,7 +131,7 @@ p:last-child {
 
 .nav__logo-img {
   display: block;
-  height: 48px;
+  height: 56px;
   width: auto;
   object-fit: contain;
 }
@@ -262,6 +262,15 @@ p:last-child {
   text-align: center;
   padding: 2rem 1.5rem;
   max-width: 720px;
+}
+
+.hero__logo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  object-fit: contain;
 }
 
 .hero__title {
