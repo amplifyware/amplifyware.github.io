@@ -131,9 +131,10 @@ p:last-child {
 
 .nav__logo-img {
   display: block;
-  height: 56px;
+  height: 64px;
   width: auto;
   object-fit: contain;
+  filter: brightness(1.25) contrast(1.1);
 }
 
 .nav__toggle {
@@ -250,10 +251,12 @@ p:last-child {
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(11, 17, 32, 0.92) 0%,
-    rgba(1, 132, 214, 0.15) 50%,
-    rgba(11, 17, 32, 0.88) 100%
+    rgba(11, 17, 32, 0.94) 0%,
+    rgba(11, 17, 32, 0.92) 50%,
+    rgba(11, 17, 32, 0.94) 100%
   );
+  /* Extra dark layer so logo and text stand out over the Earth image */
+  box-shadow: inset 0 0 0 1000px rgba(11, 17, 32, 0.35);
 }
 
 .hero__content {
